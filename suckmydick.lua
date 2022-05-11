@@ -256,6 +256,7 @@ local toggle = sec:Toggle("Autofarm", false,"Toggle", function(t)
                 fireproximityprompt(v.ProximityPrompt)
             end
             end
+            wait()
             fireclickdetector(game.Workspace.Stores.Robbery.moneyhandle.ClickDetector)
         end
     end
