@@ -177,64 +177,55 @@ end)
 
 local toggle = sec:Toggle("Autofarm", false,"Toggle", function(t)
     getgenv().autofarm = t
-    while wait(1) do
-        if getgenv().autofarm == true then -- checks if the global is true and runs the code
+    while getgenv().autofarm do
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2158.52441, 3.9454248, 180.434845, -0.0112774326, 8.7302368e-08, 0.999936402, -6.52192611e-08, 1, -8.80434712e-08, -0.999936402, -6.62080168e-08, -0.0112774326)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2157.10596, 3.9454248, 172.223587, 0.999888301, 5.22764365e-09, 0.0149468696, -5.76623682e-09, 1, 3.59907517e-08, -0.0149468696, -3.60729189e-08, 0.999888301)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2167.55371, 3.9454248, 171.601929, 0.999893486, 5.70353613e-08, 0.0145969847, -5.80589585e-08, 1, 6.97003273e-08, -0.0145969847, -7.05403878e-08, 0.999893486)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2177.41846, 3.9454248, 171.514603, 0.99978745, 1.77018666e-08, 0.0206154399, -1.78255721e-08, 1, 5.81688875e-09, -0.0206154399, -6.18313489e-09, 0.99978745)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2158.26416, 3.9454248, 205.941803, 0.00738171907, 7.63943075e-10, 0.999972761, -5.33650069e-10, 1, -7.60024543e-10, -0.999972761, -5.28025235e-10, 0.00738171907)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2157.87207, 3.94542432, 214.345245, -0.999988794, 1.04089368e-08, -0.00473992852, 1.04271898e-08, 1, -3.82624732e-09, 0.00473992852, -3.87562826e-09, -0.999988794)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2168.46655, 3.94542432, 213.80191, -0.999996483, 2.61156785e-08, 0.00264700269, 2.6165317e-08, 1, 1.8718195e-08, -0.00264700269, 1.87873894e-08, -0.999996483)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
             	fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2177.26489, 3.94542432, 213.741531, -0.999976873, 4.67051535e-08, -0.00680296309, 4.6481972e-08, 1, 3.2964774e-08, 0.00680296309, 3.26477974e-08, -0.999976873)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
                 fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2177.26489, 3.94542432, 213.741531, -0.999976873, 4.67051535e-08, -0.00680296309, 4.6481972e-08, 1, 3.2964774e-08, 0.00680296309, 3.26477974e-08, -0.999976873)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
@@ -247,21 +238,18 @@ local toggle = sec:Toggle("Autofarm", false,"Toggle", function(t)
                 fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2396.77173, 4.37158537, -2189.2168, -0.999993682, 4.32720419e-08, -0.00355459331, 4.32580869e-08, 1, 4.00270839e-09, 0.00355459331, 3.84891807e-09, -0.999993682)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
                 fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2370.95898, 4.37158489, -2189.09204, -0.999806762, 7.45948654e-08, -0.0196590368, 7.49660103e-08, 1, -1.81422308e-08, 0.0196590368, -1.96124841e-08, -0.999806762)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
                 fireproximityprompt(v.ProximityPrompt)
             end
             end
-            wait()
             game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2396.77173, 4.37158537, -2189.2168, -0.999993682, 4.32720419e-08, -0.00355459331, 4.32580869e-08, 1, 4.00270839e-09, 0.00355459331, 3.84891807e-09, -0.999993682)
             for i, v in pairs(workspace:GetDescendants()) do
             if v:FindFirstChild("ProximityPrompt") then
